@@ -36,3 +36,15 @@ D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.pdb
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.genruntimeconfig.cache
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CopyComplete
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Login\login.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\DatosMeteorologicos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\FichaEstacion.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\Novedades.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\About.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\Privacy.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Actuaciones.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Cargos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoDatos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoReportes.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
