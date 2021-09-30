@@ -1,0 +1,9 @@
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.deps.json
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.dll
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.pdb
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.csprojAssemblyReference.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.AssemblyInfoInputs.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.AssemblyInfo.cs
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.csproj.CoreCompileInputs.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.dll
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Dominio\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.pdb

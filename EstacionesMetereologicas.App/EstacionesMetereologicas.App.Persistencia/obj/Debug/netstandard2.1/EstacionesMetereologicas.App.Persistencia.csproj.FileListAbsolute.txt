@@ -1,0 +1,12 @@
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.csprojAssemblyReference.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.AssemblyInfoInputs.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.AssemblyInfo.cs
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.deps.json
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.dll
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.pdb
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.dll
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\bin\Debug\netstandard2.1\EstacionesMetereologicas.App.Dominio.pdb
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.csproj.CopyComplete
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.dll
+D:\AppMeteorologica\EstacionesMetereologicas.App\EstacionesMetereologicas.App.Persistencia\obj\Debug\netstandard2.1\EstacionesMetereologicas.App.Persistencia.pdb

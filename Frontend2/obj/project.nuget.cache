@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zIktJnrk4i/XApgAT+fzd+jo5ksUcK06b+XsXw5lce+IK9u4MblBaiO7SSvxswdaXDUwt3hHxZyG/ef38UG9yA==",
+  "success": true,
+  "projectFilePath": "D:\\AppMeteorologica\\Frontend2\\Frontend2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Intel Gamer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Intel Gamer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Intel Gamer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
