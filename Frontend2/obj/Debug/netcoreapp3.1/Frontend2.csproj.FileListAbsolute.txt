@@ -48,3 +48,7 @@ D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoR
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
 D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaAct.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaTDat.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoCar.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoTRep.cshtml.g.cs
