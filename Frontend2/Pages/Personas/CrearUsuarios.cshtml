@@ -2,13 +2,17 @@
 @model FrontEnd2.Pages.CrearUsuariosModel
 @{
 }
+
+<link rel="stylesheet" href="style.css">
 <h1>CREAR NUEVO USUARIO</h1>
-<form>
-    <p>Identificacion <input type="text" name="CodPersona"></p>
-    <p>Nombres <input type="text" name="LatPersona"></p>
-    <p>Apellidos <input type="text" name="LongPersona"></p>
-    <p>Cargo <input type="text" name="MunPersona"></p>
-    <p>Genero <input type="text" name="MunPersona"></p>
-    <button type="submit" id="submit" class="clearfix btn">Guardar</button>
-	<button type="button" class="clearfix btn" >Cancelar</button> 
-</form>
+<section class="form-register">
+
+    <p><input class="controls" type="text" name="nombres" placeholder="Ingrese su Identificacion"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Ingrese su Nombre"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Ingrese su Apellido"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Ingrese su Cargo"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Ingrese su Genero"></p>
+     <button type="submit" id="submit" class="clearfix btn">Guardar</button>>
+	<button type="button" class="clearfix btn" >Cancelar</button>
+    <p><a href="#">¿Ya tengo cuenta?</a></p>
+</section>
