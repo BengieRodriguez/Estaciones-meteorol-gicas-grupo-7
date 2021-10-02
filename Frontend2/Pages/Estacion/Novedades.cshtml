@@ -2,12 +2,15 @@
 @model FrontEnd2.Pages.NovedadesModel
 @{
 }
+<link rel="stylesheet" href="style.css">
 <h1>NOVEDADES</h1>
-<form>
-    <p>Estacion <input type="text" name="CodEstacion"></p>
-    <p>Fecha <input type="date" name="FechaEstacion"></p>
-    <p>Actuacion <input type="text" name="LongEstacion"></p>
-    <p>Observacion <input type="text" name="MunEstacion"></p>
-    <button type="submit" id="submit" class="clearfix btn">Guardar</button>
+<section class="form-register">
+
+    <p><input class="controls" type="text" name="nombres" placeholder="Estacion"></p>
+     <p><input class="controls" type="date" name="FechaEstacion" placeholder="Date"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Actuacion"></p>
+    <p><input class="controls" type="text" name="nombres" placeholder="Observacion"></p>
+     <button type="submit" id="submit" class="clearfix btn">Guardar</button>
     <button type="button" class="clearfix btn" >Cancelar</button> 
-</form>
+    
+</section>
