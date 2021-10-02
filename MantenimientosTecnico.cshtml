@@ -1,0 +1,45 @@
+﻿@page
+@model FrontEnd2.Pages.MantenimientosTecnicoModel
+@{
+}
+<section>
+
+   <div  class="contenedorGeneral">
+      <h3 class="tituloReportes">Reportes por Técnico</h3>
+         <br>
+         <h2 class="tituloHistorico">REPORTE DE ACTUACIONES POR TECNICO</h2>
+
+         <form class="formularioEstaciones">
+            <ul>
+               <li class="elementoFormulario">
+                 <label class="label" name="tecnico">Tecnico:</label>
+                    <select class="input" name="tecnico">
+                        <option value="" selected="selected" disabled>Seleccione</option> 
+                        <option value="1">Diana Panqueva</option> 
+                        <option value="2">Doris Galeano</option> 
+                        <option value="3">Yineth Botina</option>                      
+                  </select>
+               </li>
+                  
+               <li class="elementoFormulario">  
+                  <div class="divFechas">   
+                     <label class="label" for="fechaInicio">Fecha inicio: </label>
+                     <input class="input" type="date" name="fechaInicio" /> 
+                     <label class="label" for="fechaInicio">Fecha fin: </label>
+                     <input class="input"type="date" name="fechaInicio" />        
+                  </div>
+               </li>
+
+               <li class="elementoFormulario">
+                  <div class="divBotones">
+                     <button class="botonesFormuEstac" type="submit">Generar</button>
+                     <button class="botonesFormuEstac" type="submit">Cancelar</button>
+                  </div>
+               </li>
+
+            </ul>
+
+         </form>
+
+   </div>
+</section>
