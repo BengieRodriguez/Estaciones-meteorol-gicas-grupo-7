@@ -24,6 +24,10 @@ namespace EstacionesMetereologicas.App.Persistencia
 
         public DbSet<TipoReporte> TipoDeReportes { get; set; }
 
+        public DbSet<DataMeteorologica> DataMeteorologica { get; set; }
+        
+        public DbSet<Novedades> Novedades { get; set; }
+
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder
         )
@@ -31,7 +35,7 @@ namespace EstacionesMetereologicas.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                    .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AppMeteorologica2");
+                    .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AppMeteorologica");
             }
         }
     }

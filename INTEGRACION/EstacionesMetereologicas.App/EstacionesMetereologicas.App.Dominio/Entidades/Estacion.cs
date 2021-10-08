@@ -8,12 +8,14 @@ namespace EstacionesMetereologicas.App.Dominio
 
         public string Codigo_Estacion { get; set; }
 
+        public string Nombre_Estacion { get; set; }
+
+        public DateTime Fecha_Montaje { get; set; }
+
         public int Latitud { get; set; }
 
         public int Longitud { get; set; }
 
         public string Municipio { get; set; }
-
-        public DateTime Fecha_Montaje { get; set; }
     }
 }

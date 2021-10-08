@@ -38,6 +38,27 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DataMeteorologica",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Nombre_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Temperatura = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Humedad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Presion_Atmosferica = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Velocidad_Viento = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Pluviosidad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Radiacion_Solar = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DataMeteorologica", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "DatosMeteorologicosRegistrados",
                 columns: table => new
                 {
@@ -62,14 +83,31 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Codigo_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Nombre_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Fecha_Montaje = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Latitud = table.Column<int>(type: "int", nullable: false),
                     Longitud = table.Column<int>(type: "int", nullable: false),
-                    Municipio = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Fecha_Montaje = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Municipio = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Estacion", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Novedades",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Fecha_Novedad = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Actuacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Observacion = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Novedades", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -205,7 +243,13 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 name: "Cargos");
 
             migrationBuilder.DropTable(
+                name: "DataMeteorologica");
+
+            migrationBuilder.DropTable(
                 name: "DatosMeteorologicosRegistrados");
+
+            migrationBuilder.DropTable(
+                name: "Novedades");
 
             migrationBuilder.DropTable(
                 name: "Reportes");

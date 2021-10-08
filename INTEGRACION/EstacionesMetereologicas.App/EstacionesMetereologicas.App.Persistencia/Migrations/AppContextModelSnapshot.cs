@@ -94,6 +94,45 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.ToTable("Cargos");
                 });
 
+            modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.DataMeteorologica", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Codigo_Estacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Humedad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre_Estacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Pluviosidad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Presion_Atmosferica")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Radiacion_Solar")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Temperatura")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Velocidad_Viento")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DataMeteorologica");
+                });
+
             modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.DatosMeteorologicos", b =>
                 {
                     b.Property<int>("Id")
@@ -146,9 +185,36 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.Property<string>("Municipio")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Nombre_Estacion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Estacion");
+                });
+
+            modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Novedades", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Actuacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Codigo_Estacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Fecha_Novedad")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Observacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Novedades");
                 });
 
             modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Persona", b =>
