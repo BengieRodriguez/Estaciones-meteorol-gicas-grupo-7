@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JhQgrClbJJVcAlG8umIFvyWqzjHA+rYe6fDqRIWTsa+ZYQdGl9F6ViGEICosIRjKsfZYeUClDptphG7h/tp+XA==",
+  "dgSpecHash": "Z/FaQuvk8OVw6g4/cPwxeaLxo1RPXoSk3fDJG5HVHei4ZJ0FBFazyyqnTN4LbHvQBBhq90UO7RCnYWE4aK5Tlg==",
   "success": true,
-  "projectFilePath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
+  "projectFilePath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Intel Gamer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Intel Gamer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

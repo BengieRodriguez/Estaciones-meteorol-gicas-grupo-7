@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
+      "projectUniqueName": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
       "projectName": "EstacionesMetereologicas.App.Dominio",
-      "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
+      "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\Intel Gamer\\.nuget\\packages\\",
-      "outputPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\obj\\",
+      "outputPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

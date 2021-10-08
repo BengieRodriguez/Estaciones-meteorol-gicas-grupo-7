@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj": {}
+    "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj": {}
   },
   "projects": {
-    "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
+    "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
+        "projectUniqueName": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
         "projectName": "EstacionesMetereologicas.App.Dominio",
-        "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
+        "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Intel Gamer\\.nuget\\packages\\",
-        "outputPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\obj\\",
+        "outputPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
+    "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj",
         "projectName": "EstacionesMetereologicas.App.Persistencia",
-        "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj",
+        "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Intel Gamer\\.nuget\\packages\\",
-        "outputPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\obj\\",
+        "outputPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -93,8 +93,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
-                "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj"
+              "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
+                "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj": {
+    "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
+        "projectUniqueName": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
         "projectName": "Frontend2",
-        "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
+        "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\Frontend2.csproj",
         "packagesPath": "C:\\Users\\Intel Gamer\\.nuget\\packages\\",
-        "outputPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\obj\\",
+        "outputPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\Frontend2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -181,11 +181,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
-                "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj"
+              "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj": {
+                "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj"
               },
-              "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
-                "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj"
+              "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
+                "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj"
               }
             }
           }
