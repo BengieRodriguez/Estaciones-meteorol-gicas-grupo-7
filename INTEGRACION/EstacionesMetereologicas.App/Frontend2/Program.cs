@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using EstacionesMetereologicas.App.Dominio;
+using EstacionesMetereologicas.App.Persistencia;
 
 namespace Frontend2
 {
     public class Program
     {
+        private static IRepositorioPersona _repoPersona = new RepositorioPersona(new EstacionesMetereologicas.App.Persistencia.AppContext());
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
