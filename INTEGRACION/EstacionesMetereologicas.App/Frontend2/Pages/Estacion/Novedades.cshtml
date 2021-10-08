@@ -19,13 +19,18 @@
             <h1 class="toptitle">NOVEDADES<br /><br />
             </h1>
             <div class="contactstyle topform">
-                <form>
-                    <p>Estación: * <input type="text" name="CodEstacion"></p>
-                    <p>Fecha: * <input type="date" name="FechaEstacion"></p>
-                    <p>Actuación: * <input type="text" name="LongEstacion"></p>
-                    <p>Observación: * <input type="text" name="MunEstacion"></p>
+                <form method="POST">
+                    <p>Estación: <input type="text" name="CodNovedad" placeholder="*"></p>
+
+                    <p>Fecha: <input type="datetime-local" name="FechaNovedad" placeholder="*"></p>
+                    
+                    <p>Actuación: <input type="text" name="ActNovedad" placeholder="*"></p>
+                    
+                    <p>Observación: <input type="text" name="ObsNovedad" placeholder="*"></p>
+                    
                     <button type="submit" id="submit" class="clearfix btn">Guardar</button>
-                    <button type="button" class="clearfix btn">Cancelar</button>
+
+                    <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
                 </form>
             </div>
         </div>
