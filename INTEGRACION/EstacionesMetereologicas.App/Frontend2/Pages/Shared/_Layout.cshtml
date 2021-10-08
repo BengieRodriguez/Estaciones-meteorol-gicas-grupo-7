@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>@ViewData["Title"] EstaWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="~/css/layout.css">
+</head>
+
+<body id="top">
+
+    <div class="bgded overlay" style="background-image:url(https://picsum.photos/seed/picsum/200/300); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+        <div class="container">
+            <div class="wrapper row1">
+            
+                <header id="header" class="hoc clear">
+                    <div id="logo" class="fl_left">
+                        <h1><a href="/Index">ESTAWEB</a></h1>
+                    </div>
+                    <nav id="mainav" class="fl_right">
+                        <ul class="clear">
+                            <li class="active"><a href="/Index">Home</a></li>
+                            <li><a class="drop" href="#">MAESTROS</a>
+                                <ul>
+                                    <li><a href="/Maestros/Actuaciones">Actuaciones</a></li>
+                                    <li><a href="/Maestros/Cargos">Cargos</a></li>
+                                    <li><a href="/Maestros/TipoDatos">Tipo Datos</a></li>
+                                    <li><a href="/Maestros/TipoReportes">Tipo Reportes</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop" href="#">ESTACION</a>
+                                <ul>
+                                    <li><a href="/Estacion/FichaEstacion">Ficha Estación</a></li>
+                                    <li><a href="/Estacion/DatosMeteorologicos">Datos Meteorológicos</a></li>
+                                    <li><a href="/Estacion/Novedades">Novedades</a></li>
+                                </ul>
+                            <li><a class="drop" href="#">PERSONAS</a>
+                                <ul>
+                                    <li><a href="/Personas/CrearUsuarios">Crear usuarios</a></li>
+                                </ul>
+                            <li><a class="drop" href="#">REPORTES</a>
+                                <ul>
+                                    <li><a href="/Reportes/DatosHistoricos">Datos Históricos</a></li>
+                                    <li><a href="/Reportes/MantenimientosTecnico">Mantenimientos por técnico</a></li>
+                                </ul>
+                            <li><a class="drop" href="#">INFORMACION</a>
+                                <ul>
+                                    <li><a href="/Informacion/About">About</a></li>
+                                    <li><a href="/Informacion/Privacy">privacy</a></li>
+                                </ul>
+                             <li><a href="/Login/login">LOGIN</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+<!--    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Frontend2 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+-->
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/mobilemenu.js"></script>
+    <script src="~/lib/jquery/dist/backtotop.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

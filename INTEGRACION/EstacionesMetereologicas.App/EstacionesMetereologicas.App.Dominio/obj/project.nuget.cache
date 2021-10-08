@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WvDZZnYaW0+X/i2fQTuyyhikr1lMNGrDOrE7zrgmGBsF6I+1sQ8Yd/1DCbHSOBxOj/KNHNx8uLEwjA57ySmJPA==",
+  "success": true,
+  "projectFilePath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Dominio\\EstacionesMetereologicas.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Intel Gamer\\.nuget\\packages\\netstandard.library.ref\\2.1.0\\netstandard.library.ref.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

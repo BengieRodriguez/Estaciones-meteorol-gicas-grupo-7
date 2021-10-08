@@ -1,0 +1,225 @@
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.exe
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.deps.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.dev.json
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.dll
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.pdb
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.dll
+D:\AppMeteorologica\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.pdb
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csprojAssemblyReference.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfoInputs.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfo.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CoreCompileInputs.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.MvcApplicationPartsAssemblyInfo.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.input.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.output.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorCoreGenerate.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.Views.pdb
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.Manifest.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.xml
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.dll
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.pdb
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.genruntimeconfig.cache
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CopyComplete
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Login\login.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\DatosMeteorologicos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\FichaEstacion.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\Novedades.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\About.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\Privacy.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Actuaciones.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Cargos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoDatos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoReportes.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaAct.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaTDat.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoCar.cshtml.g.cs
+D:\AppMeteorologica\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoTRep.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.exe
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.deps.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.dev.json
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.pdb
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.pdb
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csprojAssemblyReference.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfoInputs.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfo.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CoreCompileInputs.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.input.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.output.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorCoreGenerate.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\DatosMeteorologicos.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\FichaEstacion.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\Novedades.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\About.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\Privacy.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Login\login.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Actuaciones.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Cargos.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoDatos.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoReportes.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaAct.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaTDat.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoCar.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoTRep.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cs
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.Views.pdb
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CopyComplete
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.Manifest.cache
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.xml
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.dll
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.pdb
+C:\Users\Intel Gamer\Downloads\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.genruntimeconfig.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\appsettings.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.exe
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.deps.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.runtimeconfig.dev.json
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Frontend2.Views.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\EstacionesMetereologicas.App.Dominio.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\EstacionesMetereologicas.App.Persistencia.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\EstacionesMetereologicas.App.Dominio.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\bin\Debug\netcoreapp3.1\EstacionesMetereologicas.App.Persistencia.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csprojAssemblyReference.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfoInputs.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.AssemblyInfo.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CoreCompileInputs.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.MvcApplicationPartsAssemblyInfo.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorAssemblyInfo.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.input.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.TagHelpers.output.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorCoreGenerate.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\DatosMeteorologicos.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\FichaEstacion.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion\Novedades.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\About.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Informacion\Privacy.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Login\login.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Actuaciones.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\Cargos.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoDatos.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Maestros\TipoReportes.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaAct.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaTDat.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoCar.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoTRep.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.RazorTargetAssemblyInfo.cs
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.Views.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.csproj.CopyComplete
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.Manifest.cache
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\staticwebassets\Frontend2.StaticWebAssets.xml
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.dll
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.pdb
+D:\AppMeteorologica\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Frontend2.genruntimeconfig.cache
