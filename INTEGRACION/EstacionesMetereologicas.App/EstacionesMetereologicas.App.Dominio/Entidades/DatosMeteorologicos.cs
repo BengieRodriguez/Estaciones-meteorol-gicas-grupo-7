@@ -6,6 +6,8 @@ namespace EstacionesMetereologicas.App.Dominio
     {
         public int Id { get; set; }
 
+        public string Codigo { get; set; }
+
         public DateTime FechaDato { get; set; }
 
         public float Valor { get; set; }

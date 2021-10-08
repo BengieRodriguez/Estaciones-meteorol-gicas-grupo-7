@@ -26,6 +26,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
@@ -56,6 +59,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
@@ -74,6 +80,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
@@ -91,6 +100,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaDato")
                         .HasColumnType("datetime2");
@@ -205,6 +217,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
@@ -222,6 +237,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("Codigo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");

@@ -13,6 +13,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -27,6 +28,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -41,6 +43,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FechaDato = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Valor = table.Column<float>(type: "real", nullable: false),
                     id_TipoDato = table.Column<int>(type: "int", nullable: false),
@@ -94,6 +97,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -108,6 +112,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nombre_TipoReporte = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -122,6 +127,7 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Id_EstacionId = table.Column<int>(type: "int", nullable: true),
                     Id_personaId = table.Column<int>(type: "int", nullable: true),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),

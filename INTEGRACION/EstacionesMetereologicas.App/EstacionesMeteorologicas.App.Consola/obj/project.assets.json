@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\EstacionesMeteorologicas.App.Consola.csproj",
+      "projectUniqueName": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\EstacionesMeteorologicas.App.Consola.csproj",
       "projectName": "EstacionesMeteorologicas.App.Consola",
-      "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\EstacionesMeteorologicas.App.Consola.csproj",
+      "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\EstacionesMeteorologicas.App.Consola.csproj",
       "packagesPath": "C:\\Users\\Intel Gamer\\.nuget\\packages\\",
-      "outputPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\obj\\",
+      "outputPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMeteorologicas.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5826,8 +5826,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
-              "projectPath": "D:\\AppMeteorologica\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj"
+            "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj": {
+              "projectPath": "D:\\123\\Estaciones-meteorol-gicas-grupo-7\\INTEGRACION\\EstacionesMetereologicas.App\\EstacionesMetereologicas.App.Persistencia\\EstacionesMetereologicas.App.Persistencia.csproj"
             }
           }
         }
