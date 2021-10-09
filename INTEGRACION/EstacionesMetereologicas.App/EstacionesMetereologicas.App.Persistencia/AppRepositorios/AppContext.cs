@@ -12,7 +12,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         public DbSet<Cargo> Cargos { get; set; }
 
         public DbSet<DatosMeteorologicos> DatosMeteorologicosRegistrados
-        { get; set; }
+        { get; set;
+        }
 
         public DbSet<Estacion> Estacion { get; set; }
 
@@ -25,7 +26,7 @@ namespace EstacionesMetereologicas.App.Persistencia
         public DbSet<TipoReporte> TipoDeReportes { get; set; }
 
         public DbSet<DataMeteorologica> DataMeteorologica { get; set; }
-        
+
         public DbSet<Novedades> Novedades { get; set; }
 
         protected override void OnConfiguring(
