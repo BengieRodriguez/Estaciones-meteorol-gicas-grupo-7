@@ -9,8 +9,7 @@ using EstacionesMetereologicas.App.Persistencia;
 
 namespace FrontEnd2.Pages
 {
-    
-    public class CrearUsuariosModel : PageModel
+    public class crearUsuarioModel : PageModel
     {
         public static IRepositorioPersona _repoPersona=new RepositorioPersona(new EstacionesMetereologicas.App.Persistencia.AppContext());
         public void OnGet()

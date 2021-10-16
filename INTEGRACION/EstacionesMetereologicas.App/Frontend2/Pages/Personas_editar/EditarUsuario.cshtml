@@ -1,0 +1,51 @@
+﻿@page
+@model FrontEnd2.Pages.EditarUsuarioModel
+@{
+}
+<h1>Editar Usuarios</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.persona.Id" id="persona.Id" name="persona.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Identificacion</label>
+            <input type="text" asp-for="@Model.persona.Identificacion" id="persona.Identificacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Nombres</label>
+            <input type="text" asp-for="@Model.persona.Nombres" id="persona.Nombres" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Apellidos</label>
+            <input type="text" asp-for="@Model.persona.Apellidos" id="persona.Apellidos" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Genero</label>
+            <input type="text" asp-for="@Model.persona.Genero" id="persona.Genero" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Id Cargo</label>
+            <input type="text" asp-for="@Model.persona.Id_Cargo" id="persona.Id_Cargo" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Email</label>
+            <input type="text" asp-for="@Model.persona.Email" id="persona.Email" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Contraseña</label>
+            <input type="text" asp-for="@Model.persona.Contrasenia" id="persona.Contrasenia" class="form-control">
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Personas/Usuarios" class="btn-default">Lista de Usuarios</a>

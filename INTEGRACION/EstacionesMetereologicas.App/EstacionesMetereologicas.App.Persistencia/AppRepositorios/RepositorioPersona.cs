@@ -24,10 +24,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         Persona IRepositorioPersona.UpdatePersona(Persona persona)
         {
             var personaEncontrada =
-                _appContext
-                    .Personas
-                    .FirstOrDefault(p =>
-                        p.Identificacion == persona.Identificacion);
+                _appContext.Personas.FirstOrDefault(p =>
+                        p.Id == persona.Id);
             if (personaEncontrada != null)
             {
                 personaEncontrada.Identificacion = persona.Identificacion;
@@ -52,6 +50,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return personaEncontrada;
         }
 
+        Persona IRepositorioPersona.GetPersonaId(int idPersona)
+        {
+            var personaEncontrada =
+                _appContext
+                    .Personas
+                    .FirstOrDefault(p =>
+                        p.Id == idPersona);
+            return personaEncontrada;
+        }
+
         IEnumerable<Persona> IRepositorioPersona.GetAllPersonas()
         {
             return _appContext.Personas;
@@ -64,6 +72,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                     .Personas
                     .FirstOrDefault(p =>
                         p.Identificacion == identificacionpersona);
+            if (personaEncontrada != null)
+            {
+                _appContext.Personas.Remove (personaEncontrada);
+                _appContext.SaveChanges();
+            }
+            return personaEncontrada;
+        }
+
+        Persona IRepositorioPersona.DeletePersonaId(int idPersona)
+        {
+            var personaEncontrada =
+                _appContext
+                    .Personas
+                    .FirstOrDefault(p =>
+                        p.Id == idPersona);
             if (personaEncontrada != null)
             {
                 _appContext.Personas.Remove (personaEncontrada);

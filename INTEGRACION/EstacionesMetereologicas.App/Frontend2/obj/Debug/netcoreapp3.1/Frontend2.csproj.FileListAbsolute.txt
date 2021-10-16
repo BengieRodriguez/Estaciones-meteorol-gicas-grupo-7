@@ -306,7 +306,6 @@ D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.Ap
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevaTDat.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoCar.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_create\IngNuevoTRep.cshtml.g.cs
-D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\CrearUsuarios.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\DatosHistoricos.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Reportes\MantenimientosTecnico.cshtml.g.cs
@@ -333,3 +332,6 @@ D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.Ap
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_editar\EditarCargo.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_editar\EditarTipoDat.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\maestros_editar\EditarTipoRep.cshtml.g.cs
+D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\Usuarios.cshtml.g.cs
+D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas_create\crearUsuario.cshtml.g.cs
+D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas_editar\EditarUsuario.cshtml.g.cs

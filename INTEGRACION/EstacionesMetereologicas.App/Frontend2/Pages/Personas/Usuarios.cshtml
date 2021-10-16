@@ -1,0 +1,68 @@
+﻿@page
+@model FrontEnd2.Pages.UsuariosModel
+@{
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
+<link rel='stylesheet' href='~/css/styles/Styles/style.css' type='text/css' media='all' />
+<link rel='stylesheet'
+    href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
+    type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/flexslider.css' type='text/css' media='all' />
+
+<section id="home"
+    style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+    <div class="container">
+        <div class="textwidget">
+            <h1 class="toptitle">USUARIOS <br /><br />
+            </h1>
+            <div class="contactstyle topform">
+                <form method="POST">
+                    <section id="Imprimir">
+                        <p>
+                            <a class="btn btn-primary" href="~/Personas_create/crearUsuario">Nuevo</a>
+                            
+                            <a class="btn btn-info" href="javascript:window.print();">Imprimir</a>
+
+                            <a class="btn btn-secondary" href="Actuaciones.cshtml.cs" download="Actuaciones">Exportar</a>
+
+                            <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
+                    <br>
+                    <table border="2px" bordercolor="#000000">
+                        <tr>
+                            <th>Identificación</th>
+                            <th>Nombres</th>
+                            <th>Apellidos</th>
+                            <th>Genero</th>
+                            <th>Id Cargo</th>
+                            <th>Email</th>
+                            <th>Opciones</th>
+                        </tr>
+                    
+                        @foreach (var item in Model.persona)
+                        {
+                            <tr>
+                                <td>@item.Identificacion</td>
+                                <td>@item.Nombres</td>
+                                <td>@item.Apellidos</td>
+                                <td>@item.Genero</td>
+                                <td>@item.Id_Cargo</td>
+                                <td>@item.Email</td>
+                                <td>
+                                    <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../Personas_editar/EditarUsuario" asp-route-Id=@item.Id>
+                                        <i class="fa fa-edit" aria-hidden="true"></i>
+                                    </a>&nbsp;
+                                    <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../maestros_eliminar/EliminarActuacion" asp-route-Id=@item.Id>
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
