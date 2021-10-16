@@ -26,7 +26,7 @@ namespace EstacionesMetereologicas.App.Persistencia
         {
             var actuacionEncontrada =
                 _appContext.Actuaciones.FirstOrDefault(p =>
-                        p.Codigo == actuacion.Codigo);
+                        p.Id == actuacion.Id);
             if (actuacionEncontrada != null)
             {
                 actuacionEncontrada.Codigo = actuacion.Codigo;
@@ -47,6 +47,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return actuacionEncontrada;
         }
 
+        Actuacion IRepositorioActuacion.GetActuacionId(int idActuacion)
+        {
+            var actuacionEncontrada =
+                _appContext
+                    .Actuaciones
+                    .FirstOrDefault(p =>
+                        p.Id == idActuacion);
+            return actuacionEncontrada;
+        }
+
         IEnumerable<Actuacion> IRepositorioActuacion.GetAllActuaciones()
         {
             return _appContext.Actuaciones;
@@ -59,6 +69,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                     .Actuaciones
                     .FirstOrDefault(p =>
                         p.Codigo == codigoactuacion);
+            if (actuacionEncontrada != null)
+            {
+                _appContext.Actuaciones.Remove (actuacionEncontrada);
+                _appContext.SaveChanges();
+            }
+            return actuacionEncontrada;
+        }
+
+        Actuacion IRepositorioActuacion.DeleteActuacionId(int idActuacion)
+        {
+            var actuacionEncontrada =
+                _appContext
+                    .Actuaciones
+                    .FirstOrDefault(p =>
+                        p.Id == idActuacion);
             if (actuacionEncontrada != null)
             {
                 _appContext.Actuaciones.Remove (actuacionEncontrada);

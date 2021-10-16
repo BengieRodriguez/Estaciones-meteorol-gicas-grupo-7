@@ -16,5 +16,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         Actuacion GetActuacion(string codigoactuacion);
 
         Actuacion DeleteActuacion(string codigoactuacion);
+
+        Actuacion GetActuacionId(int idActuacion);
+
+        Actuacion DeleteActuacionId(int idActuacion);
     }
 }

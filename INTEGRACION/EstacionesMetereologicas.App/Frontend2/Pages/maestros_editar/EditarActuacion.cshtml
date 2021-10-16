@@ -1,0 +1,34 @@
+﻿@page
+@model FrontEnd2.Pages.EditarActuacionModel
+@{
+}
+<h1>Editar Actuaciones</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.actuacion.Id" id="actuacion.Id" name="actuacion.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo</label>
+            <input type="text" asp-for="@Model.actuacion.Codigo" id="actuacion.Codigo" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Descripcion</label>
+            <input type="text" asp-for="@Model.actuacion.Descripcion" id="actuacion.Descripcion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Estado</label>
+            <input type="text" asp-for="@Model.actuacion.Estado" id="actuacion.Estado" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Maestros/Actuaciones" class="btn-default">Lista de Actuaciones</a>
