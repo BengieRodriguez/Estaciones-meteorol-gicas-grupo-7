@@ -4,53 +4,69 @@
 }
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
-
 <link rel='stylesheet' href='~/css/styles/style.css' type='text/css' media='all' />
 <link rel='stylesheet'
-	href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
-	type='text/css' media='all' />
+    href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
+    type='text/css' media='all' />
 <link rel='stylesheet' href='~/css/assets/css/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' href='~/css/assets/css/flexslider.css' type='text/css' media='all' />
 
 <section id="home"
-	style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
-	<div class="container">
-		<div class="textwidget">
-			<h1 class="toptitle">INGRESO DATOS ESTACION <br /><br />
-				<!--<i class="fa fa-user roundicon"></i> -->
-			</h1>
-			<div class="contactstyle topform">
-				<form method="POST">
-					<div class="form">
-						<p>
-							<label>Código:</label>
-							<input type="text" name="CodEstacion" placeholder="*">
-						</p>
-						<p>
-							<label>Nombre Estación:</label>
-							<input type="text" name="NameEstacion" placeholder="*">
-						</p>
-						<p>
-							<label>Fecha Instalación:</label>
-							<input type="datetime-local" name="FechaEstacion" placeholder="*">
-						</p>
-						<p>
-							<label>Latitud:</label>
-							<input type="text" name="LatEstacion" placeholder="*">
-						</p>
-						<p>
-							<label>Longitud:</label>
-							<input type="text" name="LonEstacion" placeholder="*">
-						</p>
-						<p>
-							<label>Municipio:</label>
-							<input type="text" name="MuniEstacion" placeholder="*">
-						</p>
-						<button type="submit" id="submit" class="clearfix btn">Guardar</button>
-                        <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+    style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+    <div class="container">
+        <div class="textwidget">
+            <h1 class="toptitle">FICHA ESTACION <br /><br />
+            </h1>
+            <div class="contactstyle topform">
+                <form method="POST">
+                    <section id="Imprimir">
+                        <p>
+                            <a class="btn btn-primary" href="~/Estacion_create/crearFichaEstacion">Nuevo</a>
+
+                            <a class="btn btn-info" href="javascript:window.print();">Imprimir</a>
+
+                            <a class="btn btn-secondary" href="FichaEstacion.cshtml.cs" download="FichaEstacion">Exportar</a>
+
+                            <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
+                        </p>
+                    </section>
+                    <br>	
+                    <br>
+                    <table border="2px" bordercolor="#000000">
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Nombre</th>
+                            <th>Fecha</th>
+                            <th>Latitud</th>
+							<th>Longitud</th>
+							<th>Municipio</th>
+							<th>Opciones</th>
+                        </tr>
+                    
+                        @foreach (var item in Model.estacion)
+                        {
+                            <tr>
+                                <td>@item.Codigo_Estacion</td>
+                                <td>@item.Nombre_Estacion</td>
+                                <td>@item.Fecha_Montaje</td>
+								<td>@item.Latitud</td>
+								<td>@item.Longitud</td>
+								<td>@item.Municipio</td>
+                                <td>
+                                    <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../Estacion_editar/EditarFichaEstacion" asp-route-Id=@item.Id>
+                                        <i class="fa fa-edit" aria-hidden="true"></i>
+                                    </a>&nbsp;
+                                    <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../Estacion_eliminar/eliminarFichaEstacion" asp-route-Id=@item.Id>
+                                        
+										<i class="fa fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>

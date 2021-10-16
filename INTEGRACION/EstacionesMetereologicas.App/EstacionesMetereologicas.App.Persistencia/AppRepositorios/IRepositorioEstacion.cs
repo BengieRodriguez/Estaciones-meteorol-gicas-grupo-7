@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using EstacionesMetereologicas.App.Dominio;
 
 namespace EstacionesMetereologicas.App.Persistencia
@@ -17,5 +16,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         Estacion GetEstacion(string codigoestacion);
 
         Estacion DeleteEstacion(string codigoestacion);
+
+        Estacion GetEstacionId(int idEstacion);
+
+        Estacion DeleteEstacionId(int idEstacion);
     }
 }

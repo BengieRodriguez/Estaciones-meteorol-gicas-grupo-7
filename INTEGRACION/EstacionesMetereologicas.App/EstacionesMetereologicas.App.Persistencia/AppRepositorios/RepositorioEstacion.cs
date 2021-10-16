@@ -25,10 +25,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         Estacion IRepositorioEstacion.UpdateEstacion(Estacion estacion)
         {
             var estacionEncontrado =
-                _appContext
-                    .Estacion
-                    .FirstOrDefault(p =>
-                        p.Codigo_Estacion == estacion.Codigo_Estacion);
+                _appContext.Estacion.FirstOrDefault(p =>
+                        p.Id == estacion.Id);
             if (estacionEncontrado != null)
             {
                 estacionEncontrado.Codigo_Estacion = estacion.Codigo_Estacion;
@@ -52,6 +50,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return estacionEncontrado;
         }
 
+        Estacion IRepositorioEstacion.GetEstacionId(int idEstacion)
+        {
+            var estacionEncontrada =
+                _appContext
+                    .Estacion
+                    .FirstOrDefault(p =>
+                        p.Id == idEstacion);
+            return estacionEncontrada;
+        }
+
         IEnumerable<Estacion> IRepositorioEstacion.GetAllEstaciones()
         {
             return _appContext.Estacion;
@@ -70,6 +78,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                 _appContext.SaveChanges();
             }
             return estacionEncontrado;
+        }
+
+        Estacion IRepositorioEstacion.DeleteEstacionId(int idEstacion)
+        {
+            var estacionEncontrada =
+                _appContext
+                    .Estacion
+                    .FirstOrDefault(p =>
+                        p.Id == idEstacion);
+            if (estacionEncontrada != null)
+            {
+                _appContext.Estacion.Remove (estacionEncontrada);
+                _appContext.SaveChanges();
+            }
+            return estacionEncontrada;
         }
     }
 }
