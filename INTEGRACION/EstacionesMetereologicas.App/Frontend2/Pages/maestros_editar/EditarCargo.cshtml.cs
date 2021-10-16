@@ -9,13 +9,25 @@ using EstacionesMetereologicas.App.Dominio;
 
 namespace FrontEnd2.Pages
 {
-    public class CargosModel : PageModel
+    public class EditarCargoModel : PageModel
     {
+        [BindProperty]
+        public Cargo cargo{ get; set; }
         public IRepositorioCargo _repoCargo=new RepositorioCargo(new EstacionesMetereologicas.App.Persistencia.AppContext());
-        public IEnumerable<Cargo> cargo{ get; set; }
-        public void OnGet()
+        public IActionResult OnGet(int Id)
         {
-            cargo = _repoCargo.GetAllCargos();
+           cargo = _repoCargo.GetCargoId(Id);
+           if (cargo == null)
+           {
+               return RedirectToPage("../Error");
+           }
+           else
+           return Page();
+        }
+
+        public void OnPostEditar()
+        {
+            _repoCargo.UpdateCargo(cargo);
         }
     }
 }

@@ -25,10 +25,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         Cargo IRepositorioCargo.UpdateCargo(Cargo cargo)
         {
             var cargoEncontrado =
-                _appContext
-                    .Cargos
-                    .FirstOrDefault(p =>
-                        p.Codigo == cargo.Codigo);
+                _appContext.Cargos.FirstOrDefault(p =>
+                        p.Id == cargo.Id);
             if (cargoEncontrado != null)
             {
                 cargoEncontrado.Codigo = cargo.Codigo;
@@ -49,6 +47,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return cargoEncontrado;
         }
 
+        Cargo IRepositorioCargo.GetCargoId(int idCargo)
+        {
+            var cargoEncontrado=
+                 _appContext
+                    .Cargos
+                    .FirstOrDefault(p =>
+                        p.Id == idCargo);
+            return cargoEncontrado;
+        }
+
         IEnumerable<Cargo> IRepositorioCargo.GetAllCargos()
         {
             return _appContext.Cargos;
@@ -61,6 +69,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                     .Cargos
                     .FirstOrDefault(p =>
                         p.Codigo == codigocargo);
+            if (cargoEncontrado != null)
+            {
+                _appContext.Cargos.Remove (cargoEncontrado);
+                _appContext.SaveChanges();
+            }
+            return cargoEncontrado;
+        }
+
+        Cargo IRepositorioCargo.DeleteCargoId(int idCargo)
+        {
+            var cargoEncontrado =
+                _appContext
+                    .Cargos
+                    .FirstOrDefault(p =>
+                        p.Id == idCargo);
             if (cargoEncontrado != null)
             {
                 _appContext.Cargos.Remove (cargoEncontrado);

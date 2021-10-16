@@ -17,5 +17,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         Cargo GetCargo(string codigocargo);
 
         Cargo DeleteCargo(string codigocargo);
+
+        Cargo GetCargoId(int idCargo);
+
+        Cargo DeleteCargoId(int idCargo);
     }
 }
