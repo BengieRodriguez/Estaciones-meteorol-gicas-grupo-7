@@ -25,10 +25,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         Novedades IRepositorioNovedades.UpdateNovedades(Novedades novedades)
         {
             var novedadesEncontrado =
-                _appContext
-                    .Novedades
-                    .FirstOrDefault(p =>
-                        p.Codigo_Estacion == novedades.Codigo_Estacion);
+                _appContext.Novedades.FirstOrDefault(p =>
+                        p.Id == novedades.Id);
             if (novedadesEncontrado != null)
             {
                 novedadesEncontrado.Codigo_Estacion = novedades.Codigo_Estacion;
@@ -50,6 +48,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return novedadesEncontrado;
         }
 
+        Novedades IRepositorioNovedades.GetNovedadesId(int idNovedades)
+        {
+            var novedadesEncontrada =
+                _appContext
+                    .Novedades
+                    .FirstOrDefault(p =>
+                        p.Id == idNovedades);
+            return novedadesEncontrada;
+        }
+
         IEnumerable<Novedades> IRepositorioNovedades.GetAllNovedades()
         {
             return _appContext.Novedades;
@@ -68,6 +76,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                 _appContext.SaveChanges();
             }
             return novedadesEncontrado;
+        }
+
+        Novedades IRepositorioNovedades.DeleteNovedadesId(int idNovedades)
+        {
+            var novedadesEncontrada =
+                _appContext
+                    .Novedades
+                    .FirstOrDefault(p =>
+                        p.Id == idNovedades);
+            if (novedadesEncontrada != null)
+            {
+                _appContext.Novedades.Remove (novedadesEncontrada);
+                _appContext.SaveChanges();
+            }
+            return novedadesEncontrada;
         }
     }
 }

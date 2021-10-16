@@ -1,0 +1,39 @@
+﻿@page
+@model FrontEnd2.Pages.editarNovedadesModel
+@{
+}
+
+<h1>Editar Novedades</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.novedades.Id" id="novedades.Id" name="novedades.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo</label>
+            <input type="text" asp-for="@Model.novedades.Codigo_Estacion" id="novedades.Codigo_Estacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Fecha</label>
+            <input type="text" asp-for="@Model.novedades.Fecha_Novedad" id="novedades.Fecha_Novedad" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Actuación</label>
+            <input type="text" asp-for="@Model.novedades.Actuacion" id="novedades.Actuacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Observación</label>
+            <input type="text" asp-for="@Model.novedades.Observacion" id="novedades.Observacion" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Estacion/Novedades" class="btn-default">Lista de novedades</a>

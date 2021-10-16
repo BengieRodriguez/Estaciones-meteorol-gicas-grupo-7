@@ -16,21 +16,52 @@
     style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
     <div class="container">
         <div class="textwidget">
-            <h1 class="toptitle">NOVEDADES<br /><br />
+            <h1 class="toptitle">NOVEDADES <br /><br />
             </h1>
             <div class="contactstyle topform">
                 <form method="POST">
-                    <p>Estación: <input type="text" name="CodNovedad" placeholder="*"></p>
+                    <section id="Imprimir">
+                        <p>
+                            <a class="btn btn-primary" href="~/Novedades_create/crearNovedades">Nuevo</a>
 
-                    <p>Fecha: <input type="datetime-local" name="FechaNovedad" placeholder="*"></p>
+                            <a class="btn btn-info" href="javascript:window.print();">Imprimir</a>
 
-                    <p>Actuación: <input type="text" name="ActNovedad" placeholder="*"></p>
+                            <a class="btn btn-secondary" href="Novedades.cshtml.cs" download="FichaEstacion">Exportar</a>
 
-                    <p>Observación: <input type="text" name="ObsNovedad" placeholder="*"></p>
-
-                    <button type="submit" id="submit" class="clearfix btn">Guardar</button>
-
-                    <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
+                            <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
+                        </p>
+                    </section>
+                    <br>	
+                    <br>
+                    <table border="2px" bordercolor="#000000">
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Fecha</th>
+                            <th>Actiación</th>
+							<th>Observación</th>
+							<th>Opciones</th>
+                        </tr>
+                    
+                        @foreach (var item in Model.novedades)
+                        {
+                            <tr>
+                                <td>@item.Codigo_Estacion</td>
+                                <td>@item.Fecha_Novedad</td>
+								<td>@item.Actuacion</td>
+								<td>@item.Observacion</td>
+                                <td>
+                                    <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../Novedades_editar/EditarNovedades" asp-route-Id=@item.Id>
+                                        <i class="fa fa-edit" aria-hidden="true"></i>
+                                    </a>&nbsp;
+                                    <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../Novedades_eliminar/eliminarNovedades" asp-route-Id=@item.Id>
+                                        
+										<i class="fa fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        
+                    </table>
                 </form>
             </div>
         </div>
