@@ -1,0 +1,38 @@
+﻿@page
+@model FrontEnd2.Pages.EditarTipoDatModel
+@{
+}
+<h1>Editar Tipo de Datos</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.tipodedatos.Id" id="tipodedatos.Id" name="tipodedatos.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo</label>
+            <input type="text" asp-for="@Model.tipodedatos.Codigo" id="tipodedatos.Codigo"
+                class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Descripcion</label>
+            <input type="text" asp-for="@Model.tipodedatos.Descripcion" id="tipodedatos.Descripcion"
+                class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Estado</label>
+            <input type="text" asp-for="@Model.tipodedatos.Estado" id="tipodedatos.Estado" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+
+
+</form>
+<br><br>
+<a asp-page="../Maestros/TipoDatos" class="btn-default">Lista de tipo de datos</a>

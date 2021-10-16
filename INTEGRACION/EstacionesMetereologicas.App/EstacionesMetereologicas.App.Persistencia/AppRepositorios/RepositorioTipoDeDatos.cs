@@ -49,6 +49,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return tipodedatoEncontrado;
         }
 
+        TipoDeDatos IRepositorioTipoDeDatos.GetTipoDeDatosId(int idTipoDeDatos)
+        {
+            var tipodedatoEncontrado =
+                _appContext
+                    .TipoDeDatos
+                    .FirstOrDefault(p =>
+                        p.Id == idTipoDeDatos);
+            return tipodedatoEncontrado;
+        }
+
         IEnumerable<TipoDeDatos> IRepositorioTipoDeDatos.GetAllTipoDeDatos()
         {
             return _appContext.TipoDeDatos;
@@ -61,6 +71,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                     .TipoDeDatos
                     .FirstOrDefault(p =>
                         p.Codigo == codigotipodedatos);
+            if (tipodedatoEncontrado != null)
+            {
+                _appContext.TipoDeDatos.Remove (tipodedatoEncontrado);
+                _appContext.SaveChanges();
+            }
+            return tipodedatoEncontrado;
+        }
+
+        TipoDeDatos IRepositorioTipoDeDatos.DeleteTipoDeDatosId(int idTipoDeDatos)
+        {
+            var tipodedatoEncontrado =
+                _appContext
+                    .TipoDeDatos
+                    .FirstOrDefault(p =>
+                        p.Id == idTipoDeDatos);
             if (tipodedatoEncontrado != null)
             {
                 _appContext.TipoDeDatos.Remove (tipodedatoEncontrado);

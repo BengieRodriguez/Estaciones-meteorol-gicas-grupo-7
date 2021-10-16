@@ -2,6 +2,7 @@
 @model FrontEnd2.Pages.TipoDatosModel
 @{
 }
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
 <link rel='stylesheet' href='~/css/styles/style.css' type='text/css' media='all' />
@@ -21,36 +22,41 @@
             <div class="contactstyle topform">
                 <section id="Imprimir">
                     <p>
-                        <a href="javascript:window.print();">Imprimir</a>
+                        <a class="btn btn-primary" href="~/maestros_create/IngNuevaTDat">Nuevo</a>
 
-                        <a href="Actuaciones.cshtml.cs" download="Actuaciones">Exportar</a>
+                        <a class="btn btn-info" href="javascript:window.print();">Imprimir</a>
 
-                        <a href="~/maestros_create/IngNuevaTDat">Nuevo</a>
+                        <a class="btn btn-secondary" href="TipoDatos.cshtml.cs" download="TipoDeDatos">Exportar</a>
 
-                        <!-- <a class="btn.prymari" asp-area="" asp-page="./IngNuevoTdat">Nuevo</a> -->
+                        <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
                     </p>
                 </section>
                 <br>
-                <section id="Buscar">
-                    <input type="text" name="buscar" placeholder="Buscar">
-                </section>
-                <section id="ED_IN">
-                    <button type="submit" id="submit" class="clearfix btn">Editar</button>
-                    <button type="button" class="clearfix btn">Inactivar</button>
-                    <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
-                </section>
                 <br>
                 <table border="2px" bordercolor="#000000">
                     <tr>
                         <th>Codigo</th>
                         <th>Descripcion</th>
                         <th>Estado</th>
+                        <th>Opciones</th>
                     </tr>
-                    <tr>
-                        <td> _____</td>
-                        <td> _____</td>
-                        <td> _____</td>
-                    </tr>
+
+                     @foreach (var item in Model.tipodedatos)
+                        {
+                            <tr>
+                                <td>@item.Codigo</td>
+                                <td>@item.Descripcion</td>
+                                <td>@item.Estado</td>
+                                <td>
+                                    <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../maestros_editar/EditarTipoDat" asp-route-Id=@item.Id>
+                                        <i class="fa fa-edit" aria-hidden="true"></i>
+                                    </a>&nbsp;
+                                    <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../maestros_eliminar/EliminarActuacion" asp-route-Id=@item.Id>
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
                 </table>
 
             </div>

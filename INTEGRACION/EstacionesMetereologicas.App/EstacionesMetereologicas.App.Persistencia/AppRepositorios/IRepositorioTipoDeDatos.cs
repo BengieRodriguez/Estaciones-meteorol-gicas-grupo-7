@@ -17,5 +17,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         TipoDeDatos GetTipoDeDatos(string tipodedatos);
 
         TipoDeDatos DeleteTipoDeDatos(string tipodedatos);
+
+        TipoDeDatos GetTipoDeDatosId(int idActuacion);
+
+        TipoDeDatos DeleteTipoDeDatosId(int idActuacion);
     }
 }
