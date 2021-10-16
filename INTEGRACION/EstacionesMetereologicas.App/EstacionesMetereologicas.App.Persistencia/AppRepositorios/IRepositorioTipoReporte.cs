@@ -17,5 +17,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         TipoReporte GetTipoReporte(string codigotiporeporte);
 
         TipoReporte DeleteTipoReporte(string codigotiporeporte);
+
+        TipoReporte GetTipoReporteId(int idTipoReporte);
+
+        TipoReporte DeleteTipoReporteId(int idTipoReporte);
     }
 }

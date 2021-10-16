@@ -1,0 +1,38 @@
+﻿@page
+@model FrontEnd2.Pages.EditarTipoRepModel
+@{
+}
+
+<h1>Editar Tipo Reportes</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.tiporeporte.Id" id="tiporeporte.Id" name="tiporeporte.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo</label>
+            <input type="text" asp-for="@Model.tiporeporte.Codigo" id="tiporeporte.Codigo" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Nombre de Tipo de Reporte</label>
+            <input type="text" asp-for="@Model.tiporeporte.Nombre_TipoReporte" id="tiporeporte.Nombre_TipoReporte" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Estado</label>
+            <input type="text" asp-for="@Model.tiporeporte.Estado" id="tiporeporte.Estado" class="form-control">
+        </div>
+       
+        
+    </div>
+
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Maestros/TipoReportes" class="btn-default">Lista de Tipo de Reportes</a>

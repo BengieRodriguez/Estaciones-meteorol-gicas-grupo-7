@@ -16,43 +16,45 @@
     style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
     <div class="container">
         <div class="textwidget">
-            <h1 class="toptitle">TIPO DE REPORTES<br /><br />
-                <!--<i class="fa fa-user roundicon"></i> -->
+            <h1 class="toptitle">TIPO DE REPORTES <br /><br />
             </h1>
             <div class="contactstyle topform">
-                <form method="post" id="topcontactform">
+                <form method="POST">
                     <section id="Imprimir">
                         <p>
-                            <a href="javascript:window.print();">Imprimir</a>
+                            <a class="btn btn-primary" href="~/maestros_create/IngNuevoTRep">Nuevo</a>
+                            
+                            <a class="btn btn-info" href="javascript:window.print();">Imprimir</a>
 
-                            <a href="Actuaciones.cshtml.cs" download="Actuaciones">Exportar</a>
+                            <a class="btn btn-secondary" href="Actuaciones.cshtml.cs" download="Actuaciones">Exportar</a>
 
-                            <a href="~/maestros_create/IngNuevoTRep">Nuevo</a>
-
-                            <!-- <a class="btn.prymari" asp-area="" asp-page="./maestros_create/IngNuevoTRep">Nuevo</a> -->
-                        </p>
-                    </section>
-                    <br>
-                    <section id="Buscar">
-                        <input type="text" name="buscar" placeholder="Buscar">
-                    </section>
-                    <section id="ED_IN">
-                        <button type="submit" id="submit" class="clearfix btn">Editar</button>
-                        <button type="button" class="clearfix btn">Inactivar</button>
-                        <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
-                    </section>
+                            <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
                     <br>
                     <table border="2px" bordercolor="#000000">
                         <tr>
                             <th>Codigo</th>
-                            <th>Descripción</th>
+                            <th>Nombre Reporte</th>
                             <th>Estado</th>
+                            <th>Opciones</th>
                         </tr>
-                        <tr>
-                            <td> _____</td>
-                            <td> _____</td>
-                            <td> _____</td>
-                        </tr>
+                    
+                        @foreach (var item in Model.tipoReporte)
+                        {
+                            <tr>
+                                <td>@item.Codigo</td>
+                                <td>@item.Nombre_TipoReporte</td>
+                                <td>@item.Estado</td>
+                                <td>
+                                    <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../maestros_editar/EditarTipoRep" asp-route-Id=@item.Id>
+                                        <i class="fa fa-edit" aria-hidden="true"></i>
+                                    </a>&nbsp;
+                                    <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../maestros_eliminar/EliminarActuacion" asp-route-Id=@item.Id>
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        
                     </table>
                 </form>
             </div>

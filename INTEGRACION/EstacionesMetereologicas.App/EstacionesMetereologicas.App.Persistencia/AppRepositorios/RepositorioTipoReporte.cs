@@ -25,10 +25,8 @@ namespace EstacionesMetereologicas.App.Persistencia
         TipoReporte IRepositorioTipoReporte.UpdateTipoReporte(TipoReporte tiporeporte)
         {
             var tiporeporteEncontrado =
-                _appContext
-                    .TipoDeReportes
-                    .FirstOrDefault(p =>
-                        p.Codigo == tiporeporte.Codigo);
+                _appContext.TipoDeReportes.FirstOrDefault(p =>
+                        p.Id == tiporeporte.Id);
             if (tiporeporteEncontrado != null)
             {
                 tiporeporteEncontrado.Codigo = tiporeporte.Codigo;
@@ -49,6 +47,16 @@ namespace EstacionesMetereologicas.App.Persistencia
             return tiporeporteEncontrado;
         }
 
+        TipoReporte IRepositorioTipoReporte.GetTipoReporteId(int idTipoReporte)
+        {
+            var tipoReporteEncontrado =
+                _appContext
+                    .TipoDeReportes
+                    .FirstOrDefault(p =>
+                        p.Id == idTipoReporte);
+            return tipoReporteEncontrado;
+        }
+
         IEnumerable<TipoReporte> IRepositorioTipoReporte.GetAllTipoReporte()
         {
             return _appContext.TipoDeReportes;
@@ -67,6 +75,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                 _appContext.SaveChanges();
             }
             return tiporeporteEncontrado;
+        }
+
+        TipoReporte IRepositorioTipoReporte.DeleteTipoReporteId(int idTipoReporte)
+        {
+            var tipoReporteEncontrado =
+                _appContext
+                    .TipoDeReportes
+                    .FirstOrDefault(p =>
+                        p.Id == idTipoReporte);
+            if (tipoReporteEncontrado != null)
+            {
+                _appContext.TipoDeReportes.Remove (tipoReporteEncontrado);
+                _appContext.SaveChanges();
+            }
+            return tipoReporteEncontrado;
         }
     }
 }
