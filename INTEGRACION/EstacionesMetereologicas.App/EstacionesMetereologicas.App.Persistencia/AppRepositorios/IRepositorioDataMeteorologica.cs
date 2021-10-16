@@ -17,5 +17,9 @@ namespace EstacionesMetereologicas.App.Persistencia
         DataMeteorologica GetDataMeteorologica(string codigodatameteorologica);
 
         DataMeteorologica DeleteDataMeteorologica(string codigodatameteorologica);
+
+        DataMeteorologica GetDataMeteorologicaId(int idDataMeteorologica);
+
+        DataMeteorologica DeleteDataMeteorologicaId(int idDataMeteorologica);
     }
 }

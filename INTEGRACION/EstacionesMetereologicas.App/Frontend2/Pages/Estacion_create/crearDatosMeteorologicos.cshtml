@@ -1,0 +1,51 @@
+﻿@page
+@model FrontEnd2.Pages.crearDatosMeteorologicosModel
+@{
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
+<link rel='stylesheet' href='~/css/styles/style.css' type='text/css' media='all' />
+<link rel='stylesheet'
+	href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
+	type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/flexslider.css' type='text/css' media='all' />
+
+<section id="home"
+	style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+	<div class="container">
+		<div class="textwidget">
+			<h1 class="toptitle">INGRESO DATOS METEROROLOGICOS <br /><br />
+				<!--<i class="fa fa-user roundicon"></i> -->
+			</h1>
+			<div class="contactstyle topform">
+				<form method="post" id="topcontactform">
+					<div class="form">
+
+						<p>Código Estación: <input type="text" name="CodDataMeteorologica" placeholder="*"> </p>
+
+						<p>Nombre Estación: <input type="text" name="NameDataMeteorologica" placeholder="*"></p>
+
+						<p>Fecha: <input type="datetime-local" name="FechaDataMeteorologica" placeholder="*"></p>
+
+						<p>Temperatura: <input type="text" name="TemDataMeteorologica" placeholder="*"></p>
+
+						<p>Humedad: <input type="text" name="HumDataMeteorologica" placeholder="*"></p>
+
+						<p>Presión Atmosférica: <input type="text" name="PresAtDataMeteorologica" placeholder="*"></p>
+
+						<p>Velocidad Viento: <input type="text" name="VientoDataMeteorologica" placeholder="*"></p>
+
+						<p>Pluviosidad: <input type="text" name="PluvDataMeteorologica" placeholder="*"></p>
+
+						<p>Radiación Solar: <input type="text" name="RadDataMeteorologica" placeholder="*"></p>
+						
+						<button type="submit" id="submit" class="clearfix btn">Guardar</button>
+
+						<a href="~/Estacion/DatosMeteorologicos"> <button type="button" class="clearfix btn">Cancelar</button></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>

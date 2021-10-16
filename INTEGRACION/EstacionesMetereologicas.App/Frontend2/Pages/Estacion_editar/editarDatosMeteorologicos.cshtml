@@ -1,0 +1,59 @@
+﻿@page
+@model FrontEnd2.Pages.editarDatosMeteorologicosModel
+@{
+}
+
+<h1>Editar Datos Meteorológicos</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.datameteorologica.Id" id="datameteorologica.Id" name="datameteorologica.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo Estación</label>
+            <input type="text" asp-for="@Model.datameteorologica.Codigo_Estacion" id="datameteorologica.Codigo_Estacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Nombre estación</label>
+            <input type="text" asp-for="@Model.datameteorologica.Nombre_Estacion" id="datameteorologica.Nombre_Estacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Fecha Datos</label>
+            <input type="text" asp-for="@Model.datameteorologica.Fecha" id="datameteorologica.Fecha" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Temperatura</label>
+            <input type="text" asp-for="@Model.datameteorologica.Temperatura" id="datameteorologica.Temperatura" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Humedad</label>
+            <input type="text" asp-for="@Model.datameteorologica.Humedad" id="datameteorologica.Humedad" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Presión Atmosférica</label>
+            <input type="text" asp-for="@Model.datameteorologica.Presion_Atmosferica" id="datameteorologica.Presion_Atmosferica" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Velocidad del Viento</label>
+            <input type="text" asp-for="@Model.datameteorologica.Velocidad_Viento" id="datameteorologica.Velocidad_Viento" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Pluviosidad</label>
+            <input type="text" asp-for="@Model.datameteorologica.Pluviosidad" id="datameteorologica.Pluviosidad" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Radiación Solar</label>
+            <input type="text" asp-for="@Model.datameteorologica.Radiacion_Solar" id="datameteorologica.Radiacion_Solar" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Editar">Guardar</button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Estacion/DatosMeteorologicos" class="btn-default">Lista de Datos Meteorológicos</a>

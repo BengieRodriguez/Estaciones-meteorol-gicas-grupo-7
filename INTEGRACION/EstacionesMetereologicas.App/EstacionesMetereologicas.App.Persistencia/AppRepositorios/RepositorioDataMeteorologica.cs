@@ -15,10 +15,7 @@ namespace EstacionesMetereologicas.App.Persistencia
             _appContext = appContext;
         }
 
-        DataMeteorologica
-        IRepositorioDataMeteorologica.AddDataMeteorologica(
-            DataMeteorologica datameteorologica
-        )
+        DataMeteorologica IRepositorioDataMeteorologica.AddDataMeteorologica(DataMeteorologica datameteorologica)
         {
             var datameteorologicaAdicionado =
                 _appContext.DataMeteorologica.Add(datameteorologica);
@@ -26,41 +23,30 @@ namespace EstacionesMetereologicas.App.Persistencia
             return datameteorologicaAdicionado.Entity;
         }
 
-        DataMeteorologica
-        IRepositorioDataMeteorologica.UpdateDataMeteorologica(
-            DataMeteorologica datameteorologica
-        )
+        DataMeteorologica IRepositorioDataMeteorologica.UpdateDataMeteorologica(DataMeteorologica datameteorologica)
         {
             var datameteorologicaEncontrado =
                 _appContext
                     .DataMeteorologica
                     .FirstOrDefault(p =>
-                        p.Codigo_Estacion == datameteorologica.Codigo_Estacion);
+                        p.Id == datameteorologica.Id);
             if (datameteorologicaEncontrado != null)
             {
-                datameteorologica.Codigo_Estacion =
-                    datameteorologica.Codigo_Estacion;
-                datameteorologica.Nombre_Estacion =
-                    datameteorologica.Nombre_Estacion;
-                datameteorologica.Fecha = datameteorologica.Fecha;
-                datameteorologica.Temperatura = datameteorologica.Temperatura;
-                datameteorologica.Humedad = datameteorologica.Humedad;
-                datameteorologica.Presion_Atmosferica =
-                    datameteorologica.Presion_Atmosferica;
-                datameteorologica.Velocidad_Viento =
-                    datameteorologica.Velocidad_Viento;
-                datameteorologica.Pluviosidad = datameteorologica.Pluviosidad;
-                datameteorologica.Radiacion_Solar =
-                    datameteorologica.Radiacion_Solar;
+                datameteorologicaEncontrado.Codigo_Estacion = datameteorologica.Codigo_Estacion;
+                datameteorologicaEncontrado.Nombre_Estacion = datameteorologica.Nombre_Estacion;
+                datameteorologicaEncontrado.Fecha = datameteorologica.Fecha;
+                datameteorologicaEncontrado.Temperatura = datameteorologica.Temperatura;
+                datameteorologicaEncontrado.Humedad = datameteorologica.Humedad;
+                datameteorologicaEncontrado.Presion_Atmosferica = datameteorologica.Presion_Atmosferica;
+                datameteorologicaEncontrado.Velocidad_Viento = datameteorologica.Velocidad_Viento;
+                datameteorologicaEncontrado.Pluviosidad = datameteorologica.Pluviosidad;
+                datameteorologicaEncontrado.Radiacion_Solar = datameteorologica.Radiacion_Solar;
                 _appContext.SaveChanges();
             }
             return datameteorologicaEncontrado;
         }
 
-        DataMeteorologica
-        IRepositorioDataMeteorologica.GetDataMeteorologica(
-            string codigodatameteorologica
-        )
+        DataMeteorologica IRepositorioDataMeteorologica.GetDataMeteorologica(string codigodatameteorologica)
         {
             var datameteorologicaEncontrado =
                 _appContext
@@ -70,16 +56,22 @@ namespace EstacionesMetereologicas.App.Persistencia
             return datameteorologicaEncontrado;
         }
 
-        IEnumerable<DataMeteorologica>
-        IRepositorioDataMeteorologica.GetAllDataMeteorologica()
+        DataMeteorologica IRepositorioDataMeteorologica.GetDataMeteorologicaId(int idDataMeteorologica)
+        {
+            var dataMeteorologicaEncontrada =
+                _appContext
+                    .DataMeteorologica
+                    .FirstOrDefault(p =>
+                        p.Id == idDataMeteorologica);
+            return dataMeteorologicaEncontrada;
+        }
+
+        IEnumerable<DataMeteorologica> IRepositorioDataMeteorologica.GetAllDataMeteorologica()
         {
             return _appContext.DataMeteorologica;
         }
 
-        DataMeteorologica
-        IRepositorioDataMeteorologica.DeleteDataMeteorologica(
-            string codigodatameteorologica
-        )
+        DataMeteorologica IRepositorioDataMeteorologica.DeleteDataMeteorologica(string codigodatameteorologica)
         {
             var datameteorologicaEncontrado =
                 _appContext
@@ -94,6 +86,21 @@ namespace EstacionesMetereologicas.App.Persistencia
                 _appContext.SaveChanges();
             }
             return datameteorologicaEncontrado;
+        }
+
+        DataMeteorologica IRepositorioDataMeteorologica.DeleteDataMeteorologicaId(int idDataMeteorologica)
+        {
+            var dataMeteorologicaEncontrada =
+                _appContext
+                    .DataMeteorologica
+                    .FirstOrDefault(p =>
+                        p.Id == idDataMeteorologica);
+            if (dataMeteorologicaEncontrada != null)
+            {
+                _appContext.DataMeteorologica.Remove (dataMeteorologicaEncontrada);
+                _appContext.SaveChanges();
+            }
+            return dataMeteorologicaEncontrada;
         }
     }
 }
