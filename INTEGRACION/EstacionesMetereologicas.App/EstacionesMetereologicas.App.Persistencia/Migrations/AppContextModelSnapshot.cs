@@ -227,11 +227,16 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Contrasenia")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
                     b.Property<string>("Genero")
                         .HasColumnType("nvarchar(max)");
@@ -248,6 +253,8 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Personas");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
                 });
 
             modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Reporte", b =>
@@ -316,6 +323,34 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TipoDeReportes");
+                });
+
+            modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Validacion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("Val")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Validaciones");
+                });
+
+            modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Administrador", b =>
+                {
+                    b.HasBaseType("EstacionesMetereologicas.App.Dominio.Persona");
+
+                    b.Property<int>("Password")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Rol")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("Administrador");
                 });
 
             modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Actividad", b =>

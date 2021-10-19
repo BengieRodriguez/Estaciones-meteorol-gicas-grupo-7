@@ -35,8 +35,9 @@
                             <th>Nombres</th>
                             <th>Apellidos</th>
                             <th>Genero</th>
-                            <th>Id Cargo</th>
+                            <th>Cargo</th>
                             <th>Email</th>
+                            <th>Estado</th>
                             <th>Opciones</th>
                         </tr>
                     
@@ -49,6 +50,7 @@
                                 <td>@item.Genero</td>
                                 <td>@item.Id_Cargo</td>
                                 <td>@item.Email</td>
+                                <td>@item.Estado</td>
                                 <td>
                                     <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../Personas_editar/EditarUsuario" asp-route-Id=@item.Id>
                                         <i class="fa fa-edit" aria-hidden="true"></i>

@@ -21,9 +21,13 @@
 			<div class="contactstyle topform">
 				<form method="post" id="topcontactform">
 					<div class="form">
-						<input type="text" name="name" placeholder="Usuario/E-mail *">
-						<input type="password" name="password" placeholder="Contraseña *">
-						<input type="submit" id="submit" class="clearfix btn" value="INGRESAR">
+						<!-- <input type="text" name="name" placeholder="Usuario/E-mail *"> -->
+						<!-- <input type="password" name="password" placeholder="Contraseña *"> -->
+						<!-- <input type="submit" id="submit" class="clearfix btn" value="INGRESAR"> -->
+
+						<input asp-for="@Model.administrador.Identificacion" placeholder="Identificación usuario *">
+						<input type="password" asp-for="@Model.administrador.Password" placeholder="Contraseña *">
+						<input type="submit" id="submit" class="clearfix btn" value="INGRESAR" asp-page-handler="Ingresar">
 					</div>
 				</form>
 			</div>

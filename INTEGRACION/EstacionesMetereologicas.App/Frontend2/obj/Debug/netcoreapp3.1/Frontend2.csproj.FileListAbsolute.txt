@@ -337,3 +337,4 @@ D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.Ap
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Personas_editar\EditarUsuario.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion_create\crearDatosMeteorologicos.cshtml.g.cs
 D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Estacion_editar\editarDatosMeteorologicos.cshtml.g.cs
+D:\123\Estaciones-meteorol-gicas-grupo-7\INTEGRACION\EstacionesMetereologicas.App\Frontend2\obj\Debug\netcoreapp3.1\Razor\Pages\Login\LoginUsuarios.cshtml.g.cs

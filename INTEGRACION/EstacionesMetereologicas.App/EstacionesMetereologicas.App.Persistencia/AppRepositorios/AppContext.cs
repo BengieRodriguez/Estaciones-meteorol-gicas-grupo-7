@@ -29,6 +29,10 @@ namespace EstacionesMetereologicas.App.Persistencia
 
         public DbSet<Novedades> Novedades { get; set; }
 
+        public DbSet<Validacion> Validaciones { get; set; }
+
+        public DbSet<Administrador> Administradores { get; set; }
+
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder
         )
@@ -36,7 +40,7 @@ namespace EstacionesMetereologicas.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                    .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AppMeteorologica");
+                    .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = App_Meteorologica_2");
             }
         }
     }

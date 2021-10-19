@@ -18,6 +18,8 @@ namespace EstacionesMetereologicas.App.Dominio
 
         public string Email { get; set; }
 
-        public string Contrasenia { get; set; }
+        //public string Contrasenia { get; set; }
+
+        public char Estado{get;set;}
     }
 }

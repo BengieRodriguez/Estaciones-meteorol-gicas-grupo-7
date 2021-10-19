@@ -15,7 +15,7 @@ namespace FrontEnd2.Pages
         public void OnGet()
         {
         }
-        public void OnPost(string CodePersona,string NamePersona,string LastNamePersona, string GeneroPersona, string CargoPersona, string EmailPersona, string ContraseniaPersona)
+        public void OnPost(string CodePersona,string NamePersona,string LastNamePersona, string GeneroPersona, string CargoPersona, string EmailPersona, char Estado)
         {
             var persona=new Persona();
             persona.Identificacion=CodePersona;
@@ -24,7 +24,7 @@ namespace FrontEnd2.Pages
             persona.Genero=GeneroPersona;
             persona.Id_Cargo=CargoPersona;
             persona.Email=EmailPersona;
-            persona.Contrasenia=ContraseniaPersona;
+            persona.Estado=Estado;
             _repoPersona.AddPersona(persona);
         }
     }

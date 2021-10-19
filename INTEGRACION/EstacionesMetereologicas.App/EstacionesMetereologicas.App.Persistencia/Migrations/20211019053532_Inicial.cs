@@ -122,7 +122,10 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     Genero = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Id_Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Contrasenia = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Estado = table.Column<string>(type: "nvarchar(1)", nullable: false),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<int>(type: "int", nullable: true),
+                    Rol = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -157,6 +160,19 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TipoDeReportes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Validaciones",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Val = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Validaciones", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -259,6 +275,9 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "TipoDeReportes");
+
+            migrationBuilder.DropTable(
+                name: "Validaciones");
 
             migrationBuilder.DropTable(
                 name: "Actividades");

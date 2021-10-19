@@ -34,7 +34,7 @@ namespace EstacionesMetereologicas.App.Persistencia
                 personaEncontrada.Genero = persona.Genero;
                 personaEncontrada.Id_Cargo = persona.Id_Cargo;
                 personaEncontrada.Email = persona.Email;
-                personaEncontrada.Contrasenia = persona.Contrasenia;
+                personaEncontrada.Estado = persona.Estado;
                 _appContext.SaveChanges();
             }
             return personaEncontrada;

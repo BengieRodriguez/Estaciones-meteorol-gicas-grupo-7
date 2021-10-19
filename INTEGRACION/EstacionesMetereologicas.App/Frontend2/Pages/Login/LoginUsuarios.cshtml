@@ -1,0 +1,36 @@
+﻿@page
+@model FrontEnd.Pages.LoginUsuariosModel
+@{
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
+<link rel='stylesheet' href='~/css/assets/css/animate.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/styles/style.css' type='text/css' media='all' />
+<link rel='stylesheet'
+	href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
+	type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='~/css/assets/css/flexslider.css' type='text/css' media='all' />
+
+<section id="home"
+	style="padding:160px 0;background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+	<div class="container">
+		<div class="textwidget">
+			<h1 class="toptitle">INGRESO DE USUARIOS <br /><br /><i class="fa fa-user roundicon"></i>
+			</h1>
+			<div class="contactstyle topform">
+				<form method="post" id="topcontactform">
+					<div class="form">
+						<!-- <input type="text" name="name" placeholder="Usuario/E-mail *"> -->
+						<!-- <input type="password" name="password" placeholder="Contraseña *"> -->
+						<!-- <input type="submit" id="submit" class="clearfix btn" value="INGRESAR"> -->
+
+						<input asp-for="@Model.administrador.Identificacion" placeholder="Identificación usuario *">
+						<input type="password" asp-for="@Model.administrador.Password" placeholder="Contraseña *">
+						<input type="submit" id="submit" class="clearfix btn" value="INGRESAR" asp-page-handler="Ingresar">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
