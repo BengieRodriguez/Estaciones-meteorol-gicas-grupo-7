@@ -2,3 +2,46 @@
 @model FrontEnd2.Pages.eliminarFichaEstacionModel
 @{
 }
+<h1>Eliminar Ficha Estación</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.estacion.Id" id="estacion.Id" name="estacion.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Codigo</label>
+            <input type="text" asp-for="@Model.estacion.Codigo_Estacion" id="estacion.Codigo_Estacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Nombre estación</label>
+            <input type="text" asp-for="@Model.estacion.Nombre_Estacion" id="estacion.Nombre_Estacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Fecha montaje</label>
+            <input type="text" asp-for="@Model.estacion.Fecha_Montaje" id="estacion.Fecha_Montaje" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Latitud</label>
+            <input type="text" asp-for="@Model.estacion.Latitud" id="estacion.Latitud" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Longitud</label>
+            <input type="text" asp-for="@Model.estacion.Longitud" id="estacion.Longitud" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Municipio</label>
+            <input type="text" asp-for="@Model.estacion.Municipio" id="estacion.Municipio" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <input type="hidden" name="Id" value="@Model.estacion.Id" />
+           <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Eliminar">Eliminar </button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Estacion/FichaEstacion" class="btn-default">Lista de fichas de Estación</a>

@@ -11,11 +11,14 @@ namespace FrontEnd2.Pages
 {
     public class UsuariosModel : PageModel
     {
+        public static IRepositorioValidacion _repoValidacion=new RepositorioValidacion(new EstacionesMetereologicas.App.Persistencia.AppContext());
         public IRepositorioPersona _repoPersona=new RepositorioPersona(new EstacionesMetereologicas.App.Persistencia.AppContext());
         public IEnumerable<Persona> persona{ get; set; }
         public void OnGet()
         {       
+            
             persona = _repoPersona.GetAllPersonas();
+            
         }
     }
 }

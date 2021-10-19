@@ -9,15 +9,15 @@ using EstacionesMetereologicas.App.Dominio;
 
 namespace FrontEnd2.Pages
 {
-    public class eliminarFichaEstacionModel : PageModel
+    public class EliminarActuacionModel : PageModel
     {
         [BindProperty]
-        public Estacion estacion{ get; set; }
-        public IRepositorioEstacion _repoEstacion=new RepositorioEstacion(new EstacionesMetereologicas.App.Persistencia.AppContext());
+        public Actuacion actuacion{ get; set; }
+        public IRepositorioActuacion _repoActuacion=new RepositorioActuacion(new EstacionesMetereologicas.App.Persistencia.AppContext());
         public IActionResult OnGet(int Id)
         {
-           estacion = _repoEstacion.GetEstacionId(Id);
-           if (estacion == null)
+           actuacion = _repoActuacion.GetActuacionId(Id);
+           if (actuacion == null)
            {
                return RedirectToPage("../Error");
            }
@@ -27,7 +27,7 @@ namespace FrontEnd2.Pages
 
         public void OnPostEliminar(int Id)
         {
-            _repoEstacion.DeleteEstacionId(Id);
+            _repoActuacion.DeleteActuacionId(Id);
         }
     }
 }

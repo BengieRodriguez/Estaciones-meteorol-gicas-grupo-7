@@ -1,0 +1,52 @@
+﻿@page
+@model FrontEnd2.Pages.EliminarPersonasModel
+@{
+}
+<h1>Eliminar Usuarios</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.persona.Id" id="persona.Id" name="persona.Id" class="form-control">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label>Identificacion</label>
+            <input type="text" asp-for="@Model.persona.Identificacion" id="persona.Identificacion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Nombres</label>
+            <input type="text" asp-for="@Model.persona.Nombres" id="persona.Nombres" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Apellidos</label>
+            <input type="text" asp-for="@Model.persona.Apellidos" id="persona.Apellidos" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Genero</label>
+            <input type="text" asp-for="@Model.persona.Genero" id="persona.Genero" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Cargo</label>
+            <input type="text" asp-for="@Model.persona.Id_Cargo" id="persona.Id_Cargo" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Email</label>
+            <input type="text" asp-for="@Model.persona.Email" id="persona.Email" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Estado</label>
+            <input type="text" asp-for="@Model.persona.Estado" id="persona.Estado" class="form-control">
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-12">
+            <input type="hidden" name="Id" value="@Model.persona.Id" />
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Eliminar">Eliminar </button>
+        </div>
+    </div>
+
+</form>
+<br><br>
+<a asp-page="../Personas/Usuarios" class="btn-default">Lista de Usuarios</a>
