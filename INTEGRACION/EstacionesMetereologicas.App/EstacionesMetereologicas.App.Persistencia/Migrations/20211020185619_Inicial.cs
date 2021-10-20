@@ -133,6 +133,25 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Reportes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id_TipoReporte = table.Column<int>(type: "int", nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FechaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    FechaFin = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Codigo_Estacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Ident_persona = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Codigo_actuacion = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Reportes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "TipoDeDatos",
                 columns: table => new
                 {
@@ -210,28 +229,6 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Reportes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Id_Tipo_Reporte = table.Column<int>(type: "int", nullable: false),
-                    Nombre_TipoReporte = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Id_ActividadId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Reportes", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Reportes_Actividades_Id_ActividadId",
-                        column: x => x.Id_ActividadId,
-                        principalTable: "Actividades",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Actividades_Id_ActuacionId",
                 table: "Actividades",
@@ -246,15 +243,13 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                 name: "IX_Actividades_Id_personaId",
                 table: "Actividades",
                 column: "Id_personaId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Reportes_Id_ActividadId",
-                table: "Reportes",
-                column: "Id_ActividadId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Actividades");
+
             migrationBuilder.DropTable(
                 name: "Cargos");
 
@@ -278,9 +273,6 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "Validaciones");
-
-            migrationBuilder.DropTable(
-                name: "Actividades");
 
             migrationBuilder.DropTable(
                 name: "Actuaciones");

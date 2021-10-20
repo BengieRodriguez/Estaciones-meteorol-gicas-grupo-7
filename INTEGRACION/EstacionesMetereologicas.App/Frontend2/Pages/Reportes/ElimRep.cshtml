@@ -1,0 +1,39 @@
+﻿@page
+@model FrontEnd2.Pages.ElimRepModel
+@{
+}
+
+<h1>Eliminar Reportes</h1>
+
+<form method="POST">
+    <input type="hidden" asp-for="@Model.reporte.Id" id="reporte.Id" name="reporte.Id">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+
+            <label>Id Reporte</label>
+            <input type="text" asp-for="@Model.reporte.Id" id="reporte.Id" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Fecha inicio </label>
+            <input type="text" asp-for="@Model.reporte.FechaInicio" id="reporte.Id_TipoReporte" class="form-control">
+        </div>
+         <div class="form-group col-md-4">
+            <label>Fecha fin</label>
+            <input type="text" asp-for="@Model.reporte.FechaFin" id="reporte.Descripcion" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Descripcion</label>
+            <input type="text" asp-for="@Model.reporte.Descripcion" id="reporte.Descripcion" class="form-control">
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <input type="hidden" name="Id" value="@Model.reporte.Id" />
+            <button type="submit" class="btn btn-primary btn-block" asp-page-handler="Eliminar">Eliminar</button>
+        </div>
+    </div>
+</form>
+<br><br>
+<a asp-page="../Reportes/DatosHistoricos" class="btn-default">Lista de reportes</a>

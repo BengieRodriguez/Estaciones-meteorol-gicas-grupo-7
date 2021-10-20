@@ -5,8 +5,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- <link rel='stylesheet' href='~/css/assets/css/bootstrap.min.css' type='text/css' media='all'/> -->
+<link rel='stylesheet' href='~/css/styles/Styles/style2.css' type='text/css' media='all' />
 
-<link rel='stylesheet' href='~/css/styles/style.css' type='text/css' media='all' />
 <link rel='stylesheet'
     href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5'
     type='text/css' media='all' />
@@ -23,13 +23,30 @@
                 <form class="formularioEstaciones">
                     <ul>
                         <li class="elementoFormulario">
-                            <label class="label" name="tecnico">Tecnico:</label>
-                            <select class="input" name="tecnico">
-                                <option value="" selected="selected" disabled>Seleccione</option>
-                                <option value="1">Diana Panqueva</option>
-                                <option value="2">Doris Galeano</option>
-                                <option value="3">Yineth Botina</option>
-                            </select>
+                            <label class="label labelTecnico" name="tecnicolabel">Técnico:</label>
+
+                                <select class="input" name="idTecnico">
+                                    <option value="" selected="selected" disabled>Seleccione</option>
+                                    @if(Model.persona != null)
+                                    {
+                                        @foreach (var item in Model.persona)
+                                        { 
+                                            <option value='@item.Identificacion'>@item.Nombres @item.Apellidos </option>                                    
+                                        } 
+                                    } 
+                                </select>   
+
+                                <label class="label labelactuacion" name="actuacionlabel">Actuación:</label>
+                                <select class="input" name="idActuacion">
+                                    <option value="" selected="selected" disabled>Seleccione</option>
+                                        @if(Model.actuacion != null)
+                                        {
+                                            @foreach (var item in Model.actuacion)
+                                            { 
+                                                <option value='@item.Id'>@item.Descripcion </option>
+                                            } 
+                                        } 
+                                </select>   
                         </li>
 
                         <li class="elementoFormulario">
@@ -44,15 +61,59 @@
                             <label class="label" for="fechaInicio">Fecha fin: </label>
                             <input class="input" type="date" name="fechaInicio" />
                         </li>
+
+                        <li>
+                            <label class="label labelDescripcion" name="DescripReportelabel">Descripción:</label>
+                            <input type="text" name="DescripReporte" placeholder="Descripción ">
+                        </li>
+
+
                         <div class="divBotones">
                             <button type="submit" id="submit" class="clearfix btn">Generar</button>
-                            <button type="button" class="clearfix btn">Cancelar</button>
+                            <a href="~/Index"> <button type="button" class="clearfix btn">Cancelar</button></a>
                         </div>
+                        
+                        <br>	
+                        <br>
 
+                        <div>
+                            <table border="2px" bordercolor="#000000">
+                                <tr>
+                                    <th>Id reporte</th>
+                                    <th>Id tipo reporte</th>
+                                    <th>Descripción reporte</th>
+                                    <th>Fecha Inicio </th>
+                                    <th>Fecha Fin</th>
+                                    <th>Código actuación </th>
+                                    <th>Documento Técnico</th>                     
+                                    <th>Opciones</th> 
+                                </tr>
+                                @if(Model.reporte != null)
+                                {
+                                    @foreach (var item in Model.reporte)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                                <td>@item.Id_TipoReporte </td>
+                                                <td>@item.Descripcion </td>
+                                                <td>@item.FechaInicio  </td>
+                                                <td>@item.FechaFin </td>
+                                                <td>@item.Codigo_actuacion </td>
+                                                <td>@item.Ident_persona </td>
+                                            <td>
+                                            <a data-toggle="tooltip" data-placement="top" title="Editar" asp-page="../Reportes/EditMantTecn" asp-route-Id=@item.Id>
+                                                <i class="fa fa-edit" aria-hidden="true"></i>
+                                            </a>&nbsp;
+                                            <a data-toggle="tooltip" data-placement="top" title="Eliminar" asp-page="../Reportes/ElimRep" asp-route-Id=@item.Id>
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>  
+                                        </tr>   
+                                    } 
+                                }
+                            </table>  
+                        </div>   
                     </ul>
-
                 </form>
-
             </div>
         </div>
     </div>

@@ -264,21 +264,28 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("Codigo_Estacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Codigo_actuacion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Id_ActividadId")
+                    b.Property<DateTime>("FechaFin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Id_TipoReporte")
                         .HasColumnType("int");
 
-                    b.Property<int>("Id_Tipo_Reporte")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Nombre_TipoReporte")
+                    b.Property<string>("Ident_persona")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("Id_ActividadId");
 
                     b.ToTable("Reportes");
                 });
@@ -372,15 +379,6 @@ namespace EstacionesMetereologicas.App.Persistencia.Migrations
                     b.Navigation("Id_Estacion");
 
                     b.Navigation("Id_persona");
-                });
-
-            modelBuilder.Entity("EstacionesMetereologicas.App.Dominio.Reporte", b =>
-                {
-                    b.HasOne("EstacionesMetereologicas.App.Dominio.Actividad", "Id_Actividad")
-                        .WithMany()
-                        .HasForeignKey("Id_ActividadId");
-
-                    b.Navigation("Id_Actividad");
                 });
 #pragma warning restore 612, 618
         }
